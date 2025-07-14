@@ -1,45 +1,45 @@
 // js/articlesData.js
 
 const articles = [
-    {
-        slug: "tragedy-thunderstorm-obi-nasarawa",
-        title: "Tragedy: Thunderstorm kills two, injured others in Obi town, Nasarawa State.",
-        thumbnail: "img/dv 1 (1).jpg",
-        meta: "By Admin | June 12, 2025",
-        excerpt: "At least two persons have died in Obi town in Nasarawa State due to thunderstorms occasioned by a heavy down pour.",
-        images: [
-            { src: "img/dv 1 (2).jpg", alt: "Obi town thunderstorm aftermath" }, // Adjusted from dv_full_1.jpg to dv 1 (2).jpg based on your main.js example
-            { src: "img/dv 1 (3).jpg", alt: "Injured victims at hospital" }, // Adjusted from dv_full_2.jpg to dv 1 (3).jpg
-        ],
-        content: `
-            <p>At least two persons have died in Obi town in Nasarawa State due to thunderstorms occasioned by a heavy down pour.</p>
-            <p>The dead victims named Malam Aminu Amegwa Ayitogo and Mr. Micah Christopher were among some people under a motorcycle workshop shade opposite the Local Government Secretariat during the down pour before the sad incident occurred. 
-            Two other victims, Mister Bulus Ogu Iwala and Abraham Francis Tarkaa sustain injuries and are still battling with their life at the Federal University Teaching Hospital Lafia where they are receiving medical attention.</p> 
-            <p>Report indicate that the incident which occurred on Monday have continued to generate reactions among people in the area.
-            The Osuko of Obi, Alhaji Aliyu Dangiwa Orume in a condolence message has urged the bereaved families to take solace in God over the sad incident. 
-            He prayed that the Souls of the deceased rest in peace.</p>
-        `
-    },
-    {
-        slug: "eid-el-kabir-kachia-celebrates",
-        title: "Eid-El-Kabir: Kachia Chiefdom celebrates in grand style.",
-        thumbnail: "img/eid (2).jpg",
-        meta: "By Admin | June 10, 2025",
-        excerpt: "The Kachia chiefdom in southern Kaduna zone has organized a colorful Sallah Durbar to mark this year's Eid-El Kabir Celebrations.",
-        images: [
-            { src: "img/eid.jpg", alt: "Kachia Sallah Durbar celebration" },
-            { src: "img/eid (2).jpg", alt: "Horse riders at Durbar" }, // Adjusted image path here to match a common pattern in your main.js
-        ],
-        content: `
-            <p>The Kachia chiefdom in southern Kaduna zone has organized a colorful Sallah Durbar to mark this year's Eid-El Kabir Celebrations.</p>
-            <p>Traditional title holders, horse riders, and thousand of people irrespective of religious, cultural and tribe differences converged on palace of Kachia chiefdom for the historic Sallah Durbar. 
-            The initiative was the first of it's kind since the creation of the chiefdom aimed to promote unity, peaceful coexistence, good neighborliness among diversed communities in the domain for better future of the area.</p>
-            <p>In his address, the Agwom Kachia, Mr. Zamani Dogon Yaro who was represented by Mr. Stephen Garba said Kachia Chiefdom resolve to introduce Sallah Durbar to reserve cultural heritage and accommodate everyone for greater development. In his remark, Danmalikin Kachia, Alhaji Rabi'u Mohammed who invested his time and resources to ensure the success of the Sallah Durbar described it as a welcome development.</p>         
-            <p>He further appealed to the people in the area to support the initiative in order to make the chiefdom more vibrant among it peers in the northern region.
-            Commenting, the village Head of Kachia, Alhaji Tanimu Badamasi said the Durbar has opened a new page in the history of Kachia chiefdom.
-            Some of the people who witnessed the event, applauded the initiative and prayed for lasting peace in the state and the country at large.</p>
-        `
-    },
+    // {
+    //     slug: "tragedy-thunderstorm-obi-nasarawa",
+    //     title: "Tragedy: Thunderstorm kills two, injured others in Obi town, Nasarawa State.",
+    //     thumbnail: "img/dv 1 (1).jpg",
+    //     meta: "By Admin | June 12, 2025",
+    //     excerpt: "At least two persons have died in Obi town in Nasarawa State due to thunderstorms occasioned by a heavy down pour.",
+    //     images: [
+    //         { src: "img/dv 1 (2).jpg", alt: "Obi town thunderstorm aftermath" }, // Adjusted from dv_full_1.jpg to dv 1 (2).jpg based on your main.js example
+    //         { src: "img/dv 1 (3).jpg", alt: "Injured victims at hospital" }, // Adjusted from dv_full_2.jpg to dv 1 (3).jpg
+    //     ],
+    //     content: `
+    //         <p>At least two persons have died in Obi town in Nasarawa State due to thunderstorms occasioned by a heavy down pour.</p>
+    //         <p>The dead victims named Malam Aminu Amegwa Ayitogo and Mr. Micah Christopher were among some people under a motorcycle workshop shade opposite the Local Government Secretariat during the down pour before the sad incident occurred. 
+    //         Two other victims, Mister Bulus Ogu Iwala and Abraham Francis Tarkaa sustain injuries and are still battling with their life at the Federal University Teaching Hospital Lafia where they are receiving medical attention.</p> 
+    //         <p>Report indicate that the incident which occurred on Monday have continued to generate reactions among people in the area.
+    //         The Osuko of Obi, Alhaji Aliyu Dangiwa Orume in a condolence message has urged the bereaved families to take solace in God over the sad incident. 
+    //         He prayed that the Souls of the deceased rest in peace.</p>
+    //     `
+    // },
+    // {
+    //     slug: "eid-el-kabir-kachia-celebrates",
+    //     title: "Eid-El-Kabir: Kachia Chiefdom celebrates in grand style.",
+    //     thumbnail: "img/eid (2).jpg",
+    //     meta: "By Admin | June 10, 2025",
+    //     excerpt: "The Kachia chiefdom in southern Kaduna zone has organized a colorful Sallah Durbar to mark this year's Eid-El Kabir Celebrations.",
+    //     images: [
+    //         { src: "img/eid.jpg", alt: "Kachia Sallah Durbar celebration" },
+    //         { src: "img/eid (2).jpg", alt: "Horse riders at Durbar" }, // Adjusted image path here to match a common pattern in your main.js
+    //     ],
+    //     content: `
+    //         <p>The Kachia chiefdom in southern Kaduna zone has organized a colorful Sallah Durbar to mark this year's Eid-El Kabir Celebrations.</p>
+    //         <p>Traditional title holders, horse riders, and thousand of people irrespective of religious, cultural and tribe differences converged on palace of Kachia chiefdom for the historic Sallah Durbar. 
+    //         The initiative was the first of it's kind since the creation of the chiefdom aimed to promote unity, peaceful coexistence, good neighborliness among diversed communities in the domain for better future of the area.</p>
+    //         <p>In his address, the Agwom Kachia, Mr. Zamani Dogon Yaro who was represented by Mr. Stephen Garba said Kachia Chiefdom resolve to introduce Sallah Durbar to reserve cultural heritage and accommodate everyone for greater development. In his remark, Danmalikin Kachia, Alhaji Rabi'u Mohammed who invested his time and resources to ensure the success of the Sallah Durbar described it as a welcome development.</p>         
+    //         <p>He further appealed to the people in the area to support the initiative in order to make the chiefdom more vibrant among it peers in the northern region.
+    //         Commenting, the village Head of Kachia, Alhaji Tanimu Badamasi said the Durbar has opened a new page in the history of Kachia chiefdom.
+    //         Some of the people who witnessed the event, applauded the initiative and prayed for lasting peace in the state and the country at large.</p>
+    //     `
+    // },
     {
         slug: "police-arrests-naval-officer-murder",
         title: "Police: 27 Arrested Over Naval Officer’s Murder in Kaduna.",
