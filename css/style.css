@@ -1,0 +1,842 @@
+/* --- Custom Color Variables --- */
+:root {
+    --bg-primary: #000000;        /* Pure Black for main background */
+    --text-color: #F8F8F8;        /* Off-white for general text */
+    --text-color-hover: #000000;
+    --primary-accent: #FFFFFF;    /* Pure White for main accents (headings, main text on dark backgrounds) */
+    --secondary-accent: #DC3545;  /* Vibrant Red for secondary accents (buttons, links, highlights) */
+    --complementary-accent: #333333; /* Dark Grey for borders, meta text (on black background), subtle separation */
+    --button-text: #FFFFFF;      /* White for button text */
+    --footer-bg: #000000;         /* Black background for footer */
+    --footer-text: #FFFFFF;       /* White text for footer */
+
+    /* New variables for components that need to stand out on a black background */
+    --card-bg: #1A1A1A;           /* Slightly lighter black for cards to give depth */
+    --input-bg: #2C2C2C;          /* Darker grey for input fields */
+    --input-text: #FFFFFF;        /* White text in inputs */
+}
+
+/* --- Base Styles --- */
+html {
+    scroll-behavior: smooth; /* Enable smooth scrolling for anchor links */
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-primary);
+    color: var(--text-color);
+    overflow-x: hidden; /* Prevent horizontal scroll from animations */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 100%; /* Ensure container fills parent for flexbox centering */
+    display: flex; /* Use flexbox to center content vertically in full-height sections */
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally within the container */
+    text-align: center; /* Default text alignment for sections */
+}
+
+a {
+    color: var(--secondary-accent); /* Links are now red */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--primary-accent); /* Red links hover to white */
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+    color: var(--primary-accent); /* Headers are white */
+    margin-bottom: 15px;
+}
+
+h1 { font-size: 2.5em; }
+h2 { font-size: 2em; }
+h3 { font-size: 1.5em; }
+
+p {
+    margin-bottom: 1em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Removes extra space below images */
+}
+
+/* --- Buttons --- */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.button.primary {
+    background-color: var(--secondary-accent); /* Primary button is red */
+    color: var(--button-text); /* White text */
+    border: 1px solid var(--secondary-accent);
+}
+
+.button.primary:hover {
+    background-color: var(--primary-accent); /* Red button hovers to white */
+    border-color: var(--primary-accent);
+    color: var(--text-color-hover); /* Text becomes dark on white hover for contrast */
+}
+
+.button.secondary {
+    background-color: transparent;
+    color: var(--secondary-accent); /* Secondary button text is red */
+    border: 1px solid var(--secondary-accent);
+}
+
+.button.secondary:hover {
+    background-color: var(--secondary-accent); /* Secondary button background becomes red on hover */
+    color: var(--button-text); /* White text */
+}
+
+
+/* --- Header --- */
+.main-header {
+    background-color: var(--footer-bg); /* Black background for header */
+    color: var(--footer-text); /* White text */
+    /* padding: 20px 0; */
+    border-bottom: 1px solid var(--complementary-accent); /* Dark grey border */
+    /* Animation base state */
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.main-header .container {
+    height: 15vh; /* Header container doesn't fill 100% height */
+    flex-direction: row; /* Align items horizontally */
+    justify-content: space-between;
+    align-items: center;
+    text-align: left; /* Reset text alignment for header */
+}
+
+.site-title {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+.site-title a {
+    color: var(--footer-text); /* White site title */
+    text-decoration: none;
+}
+
+.site-title a:hover {
+    color: var(--secondary-accent); /* Red on hover */
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 25px;
+}
+
+.main-nav a {
+    color: var(--footer-text); /* White nav links */
+    font-weight: 600;
+}
+
+.main-nav a:hover {
+    color: var(--secondary-accent); /* Red on hover */
+}
+
+#header-logo{
+    width: 140px; /* Adjust logo size */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 15px; /* Space between logo and site title */
+}
+
+/* --- Dropdown Styles --- */
+.main-nav ul li.dropdown {
+    position: relative; /* Crucial for positioning the dropdown menu */
+    padding-bottom: 5px; /* Give a little space for hover to extend */
+}
+
+.dropdown-menu {
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+    background-color: var(--footer-bg); /* Black background for dropdown */
+    position: absolute;
+    top: 100%; /* Position right below the parent link */
+    left: 0;
+    min-width: 150px; /* Adjust width as needed */
+    z-index: 100; /* Ensure it appears above other content */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4); /* Stronger shadow on dark background */
+    border-radius: 5px;
+    border: 1px solid var(--complementary-accent); /* Subtle border */
+
+    /* Hide by default and animate */
+    display: none; /* Basic hide for structure */
+    opacity: 0; /* For fade effect */
+    visibility: hidden; /* For screen readers and general hiding */
+    transform: translateY(10px); /* For slight slide-down effect */
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s ease;
+}
+
+.dropdown-menu li {
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu a {
+    color: var(--footer-text); /* White text for dropdown items */
+    padding: 8px 20px; /* Padding for individual links */
+    display: block; /* Make the whole area clickable */
+    white-space: nowrap; /* Prevent text wrapping */
+    font-weight: normal; /* Override bold from main-nav */
+}
+
+.dropdown-menu a:hover {
+    background-color: var(--complementary-accent); /* Darker grey background on hover */
+    color: var(--secondary-accent); /* Red text on hover */
+}
+
+/* Show dropdown on hover/focus */
+.dropdown:hover .dropdown-menu,
+.dropdown:focus-within .dropdown-menu { /* focus-within for keyboard navigation */
+    display: block; /* Show */
+    opacity: 1; /* Fade in */
+    visibility: visible; /* Make visible */
+    transform: translateY(0); /* Slide up to original position */
+}
+
+
+/* --- Hero Section (Slideshow) --- */
+.hero-section {
+    height: 100vh; /* Make hero section fill viewport height */
+    background-color: var(--bg-primary); /* Black background */
+    padding: 0; /* Remove padding as content is flex-centered */
+    position: relative; /* For positioning slideshow controls */
+    overflow: hidden; /* Hide overflow from absolute slides */
+    /* Animation base state for scroll-triggered sections */
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.hero-section .container {
+    padding: 0 20px; /* Re-add padding for container content */
+    position: relative; /* For z-index of content over slides */
+    z-index: 1; /* Ensure content is above slides */
+}
+
+.slideshow-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Critical for hiding non-active slides */
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0; /* Start hidden */
+    transition: opacity 1s ease-in-out; /* Smooth fade transition */
+    display: flex; /* Use flexbox to center content within each slide */
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-primary); /* Ensure slide background is black */
+    text-align: center; /* Center text within slide */
+}
+
+.slide.active {
+    opacity: 1; /* Show active slide */
+    z-index: 1; /* Bring active slide to front */
+}
+
+.hero-content {
+    max-width: 800px;
+    padding: 20px; /* Add padding to content inside slide */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+.hero-content h2 {
+    font-size: 2.8em;
+    margin-bottom: 20px;
+    color: var(--primary-accent); /* White for hero heading */
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: var(--text-color); /* Off-white for tagline */
+}
+
+.featured-post {
+    background-color: var(--card-bg); /* Darker background for featured post card */
+    border: 1px solid var(--complementary-accent); /* Dark grey border */
+    border-radius: 8px;
+    padding: 25px;
+    text-align: left; /* Reset text alignment for featured post content */
+    margin-top: 40px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Stronger shadow on dark background */
+}
+
+.featured-image {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.featured-post h3 {
+    margin-top: 0;
+    font-size: 1.8em;
+    color: var(--primary-accent); /* White heading */
+}
+
+.post-title-link {
+    color: var(--primary-accent); /* White link */
+}
+
+.post-title-link:hover {
+    color: var(--secondary-accent); /* Red on hover */
+}
+
+.featured-post .post-excerpt {
+    color: var(--text-color); /* Off-white excerpt */
+    margin-bottom: 20px;
+}
+
+/* Slideshow Navigation Arrows */
+.prev-slide, .next-slide {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: var(--primary-accent); /* White arrows */
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+    background-color: rgba(0,0,0,0.6); /* Semi-transparent black background */
+    z-index: 2; /* Ensure arrows are above slides */
+}
+
+.next-slide {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev-slide:hover, .next-slide:hover {
+    background-color: var(--secondary-accent); /* Red background on hover */
+    color: var(--primary-accent); /* White text on hover */
+}
+
+/* Slideshow Pagination Dots */
+.slide-dots-container {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    z-index: 2; /* Ensure dots are above slides */
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: rgba(255,255,255,0.5); /* Semi-transparent white */
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.dot.active, .dot:hover {
+    background-color: var(--secondary-accent); /* Red active dot / on hover */
+}
+
+
+/* --- Latest Posts Section --- */
+.latest-posts-section {
+    min-height: 100vh; /* Make section fill viewport height */
+    padding: 20px 0; /* Add back vertical padding for internal content */
+    background-color: var(--bg-primary); /* Black background for this section */
+    /* Ensure container can still center its content */
+    /* Animation base state for scroll-triggered sections */
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.latest-posts-section .container {
+    justify-content: flex-start; /* Align content to top within this section */
+    text-align: center; /* Center text within section */
+}
+
+.latest-posts-section h2 {
+    margin-bottom: 40px;
+    color: var(--primary-accent); /* White heading */
+}
+
+.posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+    width: 100%; /* Ensure grid takes full width of container */
+}
+
+.post-card {
+    background-color: var(--card-bg); /* Darker background for post cards */
+    border: 1px solid var(--complementary-accent); /* Dark grey border */
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.post-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3); /* Stronger shadow on dark background */
+}
+
+.post-thumbnail {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid var(--complementary-accent);
+}
+
+.post-card h3 {
+    font-size: 1.3em;
+    margin: 15px 15px 5px 15px;
+}
+
+.post-meta {
+    font-size: 0.9em;
+    color: var(--text-color); /* Off-white meta text */
+    margin: 0 15px 10px 15px;
+}
+
+.post-excerpt {
+    font-size: 1em;
+    color: var(--text-color); /* Off-white excerpt */
+    margin: 0 15px 20px 15px;
+}
+
+.view-all-button {
+    margin-top: 30px;
+}
+
+/* Hide posts initially */
+.hidden-post {
+    display: none;
+}
+
+/* --- Newsletter Signup Section Styling --- */
+.newsletter-signup-section {
+    background-color: #f8f8f8; /* A light grey-ish background */
+    padding: 60px 0; /* Plenty of padding top and bottom */
+    text-align: center; /* Center align text within the section */
+}
+
+.newsletter-signup-section h2 {
+    font-size: 2.2em; /* Adjust as needed */
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.newsletter-signup-section p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    color: #555;
+    max-width: 700px; /* Limit paragraph width for readability */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.newsletter-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Increase gap slightly */
+    margin-top: 20px;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.newsletter-form input[type="email"] {
+    background-color: transparent; /* Make background transparent */
+    border: 1px solid #ddd; /* Light border color */
+    padding: 12px 18px; /* Slightly more padding inside */
+    border-radius: 8px; /* Slightly more rounded corners */
+    flex-grow: 1; /* Allows input to take up available space */
+    max-width: 500px; /* Make it noticeably longer */
+    width: 100%; /* Ensures it takes full width within its flex grow constraint */
+    font-size: 1.1em; /* Slightly larger text inside */
+    color: #333; /* Text color for input */
+    transition: border-color 0.3s ease; /* Smooth transition for focus */
+}
+
+.newsletter-form input[type="email"]::placeholder {
+    color: #999; /* Placeholder text color */
+}
+
+.newsletter-form input[type="email"]:focus {
+    outline: none; /* Remove default outline */
+    border-color: #007bff; /* Highlight border on focus (adjust to your primary color) */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.2); /* Subtle shadow on focus */
+}
+
+.newsletter-form .button.primary {
+    padding: 12px 25px; /* Match input padding height */
+    font-size: 1.1em; /* Match input font size */
+    cursor: pointer;
+    white-space: nowrap;
+    border-radius: 8px; /* Match input border radius */
+}
+
+/* Responsive adjustments for the form on smaller screens */
+@media (max-width: 768px) {
+    .newsletter-signup-section h2 {
+        font-size: 1.8em;
+    }
+    .newsletter-signup-section p {
+        font-size: 1em;
+    }
+    .newsletter-form {
+        flex-direction: column; /* Stack input and button vertically */
+        gap: 15px;
+    }
+    .newsletter-form input[type="email"],
+    .newsletter-form .button.primary {
+        width: 90%; /* Adjust width on small screens */
+        max-width: none; /* Remove max-width constraint */
+    }
+}
+
+/* Ensure the message div also looks good */
+.newsletter-message {
+    margin-top: 20px; /* More space above the message */
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.1em; /* Slightly larger font for readability */
+}
+
+/* --- Footer --- */
+.main-footer {
+    background-color: var(--footer-bg); /* Black footer */
+    color: var(--footer-text); /* White text */
+    padding: 40px 0;
+    text-align: center;
+    font-size: 0.9em;
+    border-top: 1px solid var(--complementary-accent);
+}
+
+.main-footer .container {
+    height: auto; /* Footer container doesn't fill 100% height */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.footer-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-nav a {
+    color: var(--footer-text); /* White footer links */
+}
+
+.footer-nav a:hover {
+    color: var(--secondary-accent); /* Red on hover */
+}
+
+
+.icon-container {
+    display: flex;
+    justify-content: center; /* Adjust as needed: space-between, flex-start, flex-end */
+    gap: 2.5rem; /* This creates the 2.5rem space between the icons */
+    align-items: center; /* Vertically aligns the icons if the container has a height */
+  }
+  
+  .icon-container i { /* Assuming your icons are <i> tags, adjust selector if not */
+    font-size: 30px; /* Sets the size of each icon */
+    /* You might also want to add: */
+    /* width: 30px; */
+    /* height: 30px; */
+    /* If your icons are SVG or image based and you want to control their bounding box */
+  }
+
+
+
+
+.social-links img {
+    width: 24px;
+    height: 24px;
+    margin: 0 8px;
+    filter: invert(0); /* Make default (black) social icons visible on black background */
+    background-color: var(--primary-accent); /* White background for icons for visibility */
+    border-radius: 50%; /* Make them circular */
+    padding: 2px; /* Small padding around icon */
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.social-links a:hover img {
+    transform: translateY(-3px);
+    background-color: var(--secondary-accent); /* Red on hover */
+}
+
+
+/* --- Single Post Page Styling (post.html) --- */
+.post-page-content {
+    padding: 60px 0;
+    max-width: 800px; /* Constrain width for readability */
+    margin: 20px auto;
+    background-color: var(--card-bg); /* Dark background for post page */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    color: var(--text-color); /* Off-white text */
+    text-align: left; /* Reset text alignment for post content */
+}
+
+.single-post {
+    padding: 30px;
+}
+
+.post-page-content .post-title {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: var(--primary-accent); /* White title */
+}
+
+.post-page-content .post-meta {
+    font-size: 1em;
+    color: var(--text-color); /* Off-white meta text */
+    margin-bottom: 25px;
+}
+
+.post-main-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.post-secondary-image {
+    width: 100%; /* Adjust as needed, maybe smaller */
+    border-radius: 8px;
+    margin: 25px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.single-post p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 1.5em;
+    color: var(--text-color); /* Off-white text */
+}
+
+.back-to-home {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 0 30px; /* To align button with content padding */
+}
+
+.back-to-home.bottom-link {
+    margin-top: 30px;
+}
+
+/* --- Animation Classes --- */
+.animate-ready { /* This class will be applied by JS to trigger animation */
+    opacity: 1 !important; /* Override initial opacity */
+    transform: translateY(0) !important; /* Override initial transform */
+}
+
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 768px) {
+    .main-header .container {
+        height: 20%;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* Adjust main nav for mobile, hiding dropdown if too complex */
+    .main-nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    /* Hide dropdown on smaller screens as hover might not work well */
+    .main-nav ul li.dropdown .dropdown-menu {
+        position: static; /* Remove absolute positioning */
+        display: flex; /* Display items in a column */
+        flex-direction: column;
+        width: 100%;
+        background-color: transparent; /* No background for sub-items on mobile */
+        border: none;
+        box-shadow: none;
+        padding: 0;
+        margin-top: 5px;
+        opacity: 1; /* Always visible */
+        visibility: visible;
+        transform: translateY(0);
+        transition: none; /* Remove transitions */
+    }
+
+    .main-nav ul li.dropdown:hover .dropdown-menu,
+    .main-nav ul li.dropdown:focus-within .dropdown-menu {
+        display: flex; /* Ensure it's still displayed on hover/focus */
+    }
+
+    .main-nav ul li.dropdown > a {
+        margin-bottom: 5px; /* Add some space below "All Posts" on mobile */
+    }
+
+    .hero-content h2 {
+        font-size: 2em;
+    }
+
+    .posts-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .newsletter-form input[type="email"],
+    .newsletter-form button {
+        width: 100%;
+        max-width: 300px; /* Constrain width for mobile inputs */
+        margin: 0 auto;
+    }
+
+    .main-footer .container {
+        flex-direction: column;
+    }
+
+    .post-page-content {
+        padding: 20px 10px; /* Reduce padding on mobile */
+        margin: 15px;
+    }
+
+    .single-post {
+        padding: 15px; /* Adjust padding for inner post content */
+    }
+
+    .post-page-content .post-title {
+        font-size: 2em;
+    }
+
+    /* Adjust full height sections for mobile if content overflows */
+    .hero-section,
+    .latest-posts-section,
+    .newsletter-signup-section {
+        min-height: auto; /* Allow height to adjust to content */
+        padding: 40px 0; /* Add back some vertical padding */
+    }
+
+    .hero-section .container,
+    .latest-posts-section .container,
+    .newsletter-signup-section .container {
+        justify-content: flex-start; /* Align content to top */
+        align-items: center; /* Center horizontally */
+    }
+
+    /* Hide slideshow arrows/dots on very small screens if they clutter */
+    .prev-slide, .next-slide, .slide-dots-container {
+        display: none;
+    }
+}
+
+.post-grid{
+    display: grid;
+}
+
+/* --- Article Share Buttons --- */
+
+.article-share-buttons {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #eee; /* Light separator line */
+    text-align: center; /* Center the buttons */
+}
+
+.article-share-buttons h4 {
+    margin-bottom: 15px;
+    color: #e1e1e1;
+}
+
+.article-share-buttons ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Arrange buttons in a row */
+    flex-wrap: wrap; /* Allow wrapping on small screens */
+    justify-content: center; /* Center items in the row */
+    gap: 10px; /* Space between buttons */
+}
+
+.article-share-buttons li {
+    margin: 0; /* Remove default list item margin */
+}
+
+.share-button {
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff; /* Default text color for buttons */
+    font-weight: bold;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none; /* Remove button border */
+}
+
+/* Specific button colors */
+.share-button.facebook { background-color: #3b5998; }
+.share-button.twitter { background-color: #1DA1F2; } /* X (formerly Twitter) blue */
+.share-button.linkedin { background-color: #0077b5; }
+.share-button.whatsapp { background-color: #25D366; }
+.share-button.email { background-color: #777; }
+.share-button.copy-link { background-color: #555; }
+
+/* Hover effects */
+.share-button.facebook:hover { background-color: #2d4373; }
+.share-button.twitter:hover { background-color: #1a8cd8; }
+.share-button.linkedin:hover { background-color: #005f87; }
+.share-button.whatsapp:hover { background-color: #1DA851; }
+.share-button.email:hover { background-color: #555; }
+.share-button.copy-link:hover { background-color: #333; }
