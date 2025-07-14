@@ -462,4 +462,56 @@ const articles = [
         `   
 
     },
+     {
+        slug: "rotary-club-kaduna-metropolitan-new-president",
+        title: "Rotary Club of Kaduna Metropolitian install new President.",
+        thumbnail: "img/rotaryinstall.jpg",
+        meta: "By Admin | July 8, 2025",
+        excerpt: "Rotary Club of Kaduna Metropolitian has on Sunday evening in Protocol Shade Hamdala Hotel in Kaduna inaugurated it's  New President Rotarian Luqman Babatunde.",
+        images: [
+            { src: "img/rotary install 2.jpg", alt: "comrade" },
+            { src: "img/rotary install 4.jpg", alt: "comrade" },
+            { src: "img/rotary install 3.jpg", alt: "comrade" }
+        ],
+        content: `
+            <p> Rotary Club of Kaduna Metropolitian has on Sunday evening in Protocol Shade Hamdala Hotel in Kaduna inaugurated it's  New President Rotarian Luqman Babatunde.
+            
+            <p>
+               The event which was witnessed by prominent personalities including notable members of the club, experts, family and friends had the support of the plight of the less privileged in the society as the focus.
+
+
+                Speaking at the event, the outgoing President, Rotarian Siaka Anthony maintained that Rotary Club which is known for it's humanitarian services have affected lives of the less privileged under his watch for the passed one year and called on wealthy individuals particularly those in Kaduna to support the clubs Charity projects.
+
+            </p>
+            <p>
+                
+                He urged members of the club to give the newly installed president all the maximum support needed for the smooth running of the office, saying he needs people to achieve the desired goal.
+
+                "I want to appreciate all members that saw me through this challenging year, it was very challenging financially for all members in the sense that because of the devaluation of our currency, the fees we are paying almost doubled and that had a great impact on fellowship in the sense that members rate of turn up went down".
+
+
+            </p>
+            <p>
+               Commenting, the newly inaugurated president, Rotarian Luqman Babatunde who recounted how he became a Rotarian years back, noted that the love, passion and commitment seen in the members has been an encouragement to him.
+                
+               "the Club intends to distribute maternal birth kits to a primary health care centre in Mando, to also commence tree planting as a way of preserving our environment, and we also intend to distribute desk and textbooks at a public school in Kaduna".
+                Rotarian Babatunde pledged to serve humanity and to be accountable to the club as he serve his tenure for the period of one year inline with the rotary international club standard.
+                Also speaking, CEO Stainless Steel and Global Services Limited, Engr. Jinad Abdulakeem who chaired the event, maintained that Rotary Club of Kaduna Metropolitan has done remarkablly well in terms of the projects executed right from the past Excos and called on the new president to sustain the tempo.
+                In his presentation, Regional Manager of Tecon Phones, Mr. Kassim Ademola who spoke on businesses and challenges in Nigeria, maintained that everyone should be fully involved in businesses to be able to scale through the economic challenges in the country.
+                He maintained that people should be able to take risk and be committed in their businesses and seek support where necessary particularly in the areas of financial empowerment and support.
+
+                He urged people to shun fear, sign MOU and get loans for their business  and be prudent in their spendings for them to make head way in their business.
+
+                On her part, President of Rotary Club of Kaduna Queens, Hajiya Rabi Musa Saulawa and Assistant Zonal Coordinator zone three, Aisha Ismail commended the outgoing Excos saying they were able to execute projects in line with rotary areas of focus despite challenges.
+                They prayed that God should help the club to get members that would support the club as it carries out it charitable works.
+                The queens mother maintained that Rotary stands for service to humanity and advice the income to look for projects that will help the poor people saying every body needs help in the society.
+                Also speaking, Rotarian Tina Ishaku the Assistant governor supervising the club expressed confidence in the newly installed president, saying going by his characterics and his past anticedents he would take the club to greater heights.
+                Highlights of the event featured installation of the rotary medal to the new president, presentations of rotary awards and medals to the guest speaker as well as to the Chairman of the event, cutting of cakes of birthday celebrants for the month, among other Mukeke activities.
+            
+            
+            </p>
+        `   
+                
+
+    }
 ];
