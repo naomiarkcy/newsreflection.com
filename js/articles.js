@@ -465,11 +465,11 @@ const articles = [
      {
         slug: "NUJ-Kaduna-state-Council-Appoints-Committees",
         title: "NUJ Kaduna State Council appoints Ethics, Disciplinary, others Committee.",
-        thumbnail: "img/NuJ pics.jpg",
+        thumbnail: "img/nuj pics.jpg",
         meta: "By Admin | July 3, 2025",
         excerpt: "The Kaduna State Council of the Nigeria Union of Journalists (NUJ) has called on the State Government to sustain the momentum of its recently inaugurated Taskforce against urban crime, warning that growing criminal activities still pose a major threat to residents, journalists and the state’s fragile economy.",
         images: [
-            { src: "img/NuJ pics.jpg", alt: "comrade" },
+            { src: "img/nuj pics.jpg", alt: "comrade" },
             
         ],
         content: `
