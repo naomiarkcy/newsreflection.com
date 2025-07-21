@@ -600,10 +600,10 @@ const articles = [
         ],
         content: `
             <p> 
-                World Youth Skills Day: KDSG set to enhance Youth Skills in  Artificial Intelligence, Digital Skills.
+             Kaduna State Government says it will invest in Artificial Intelligence and Digital Skills for the youth to enhance their potentials and gain financial freedom. 
             
             <p>
-               Kaduna State Deputy Governor, Dr. Hadiza Balarabe made this known at this year's World Youth Skills Day organized by the Commissioner Ministry of Youth Development, Barrister Gloria Ibrahim in Kaduna.
+               Kaduna State Deputy Governor, Dr. Hadiza Balarabe made this known at this year's World Youth Skills Day organized by the Commissioner, Ministry of Youth Development, Barrister Gloria Ibrahim at KAD ICT Hub in Kaduna.
 
 
                Represented by her Senior Special Assistant Human Capital Development, Mallam Sagir Balarabe Musa, the Deputy Governor  commended the Commissioner of Youth Development for the initiative in marking world youth skills day in the state, saying youth in Nigeria and Kaduna State have the largest population, hence the need to indulge them with A.I, and ICT for them to discover their potentials in turn gain financial freedom.
@@ -629,9 +629,10 @@ const articles = [
 
                Also speaking, Commissioner of Education Kaduna State, Professor Abubakar Sambo who was represented by Malam Aliyu Mohammed said that the ministry would continue to collaborate with organisations and individuals that would empower the youth and transform them with skills to enable them compete globally.
                He urged them to take advantage of the world youth day and programs being rolled out by the ministry to showcase their skills and transform the state.
-
-
-               On his part, the Vice Chancellor Kaduna State University,Professor Abdullahi Musa explained that KASU recently launched an A.I labory which is the first in the country,  saying the university would continue to be in the forth font of youth development in the state.
+               
+            </p>
+            <p>
+                 On his part, the Vice Chancellor Kaduna State University,Professor Abdullahi Musa explained that KASU recently launched an A.I labory which is the first in the country,  saying the university would continue to be in the forth font of youth development in the state.
 
                Also speaking, Director General KAD ICT HUB, Malam Yusuf Bashir noted that ICT particularly A.I has so many features that assist in getting things done faster but advice that people should not be lazy.
 
@@ -640,7 +641,6 @@ const articles = [
 
                The event which has over two hundred youth present, featured a panel discussion, good will messages, DEMO on A.I app, questions and answers sessions, STEM award presentation among others.
 
-               
             </p>
         `   
                 
