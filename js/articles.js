@@ -463,51 +463,61 @@ const articles = [
 
     },
      {
-        slug: "rotary-club-kaduna-metropolitan-new-president",
-        title: "Rotary Club of Kaduna Metropolitian install new President.",
-        thumbnail: "img/rotaryinstall.jpg",
-        meta: "By Admin | July 8, 2025",
-        excerpt: "Rotary Club of Kaduna Metropolitian has on Sunday evening in Protocol Shade Hamdala Hotel in Kaduna inaugurated it's  New President Rotarian Luqman Babatunde.",
+        slug: "NUJ-Kaduna-state-Council-Appoints-Committees",
+        title: "NUJ Kaduna State Council appoints Ethics, Disciplinary, others Committee.",
+        thumbnail: "img/NuJ pics.jpg",
+        meta: "By Admin | July 3, 2025",
+        excerpt: "The Kaduna State Council of the Nigeria Union of Journalists (NUJ) has called on the State Government to sustain the momentum of its recently inaugurated Taskforce against urban crime, warning that growing criminal activities still pose a major threat to residents, journalists and the state’s fragile economy.",
         images: [
-            { src: "img/rotary install 2.jpg", alt: "comrade" },
-            { src: "img/rotary install 4.jpg", alt: "comrade" },
-            { src: "img/rotary install 3.jpg", alt: "comrade" }
+            { src: "img/NuJ pics.jpg", alt: "comrade" },
+            
         ],
         content: `
-            <p> Rotary Club of Kaduna Metropolitian has on Sunday evening in Protocol Shade Hamdala Hotel in Kaduna inaugurated it's  New President Rotarian Luqman Babatunde.
+            <p> The Kaduna State Council of the Nigeria Union of Journalists (NUJ) has called on the State Government to sustain the momentum of its recently inaugurated Taskforce against urban crime, warning that growing criminal activities still pose a major threat to residents, journalists and the state’s fragile economy.
             
             <p>
-               The event which was witnessed by prominent personalities including notable members of the club, experts, family and friends had the support of the plight of the less privileged in the society as the focus.
+               Rising from its monthly congress held at the NUJ Secretariat on Monday, the union said the Taskforce must be strengthened and properly equipped to flush out criminal elements and secure flashpoints across Kaduna metropolis and other vulnerable parts of the state.
 
 
-                Speaking at the event, the outgoing President, Rotarian Siaka Anthony maintained that Rotary Club which is known for it's humanitarian services have affected lives of the less privileged under his watch for the passed one year and called on wealthy individuals particularly those in Kaduna to support the clubs Charity projects.
+               In a communiqué signed by Usman Sani (Chairman), Lola Seriki-Idahosa (Member) and Ango Bally (Secretary), the NUJ expressed concern that many areas remained unsafe, forcing people to adjust daily routines and business hours out of fear of attacks.
 
             </p>
             <p>
                 
-                He urged members of the club to give the newly installed president all the maximum support needed for the smooth running of the office, saying he needs people to achieve the desired goal.
+               The meeting, presided over by the Council Chairman, Alhaji AbdulGafar Alabelewe, also urged the government to expedite completion of key road projects scattered across the state. It noted that bad roads not only hurt commerce but sometimes heighten security risks by isolating communities and slowing response by security agencies.
 
-                "I want to appreciate all members that saw me through this challenging year, it was very challenging financially for all members in the sense that because of the devaluation of our currency, the fees we are paying almost doubled and that had a great impact on fellowship in the sense that members rate of turn up went down".
+               Among the roads cited by the journalists for urgent attention were the Kabala Costain–Nuhu Aliyu Road in Barnawa; Television Garage–Sabon Tasha; Sabon Tasha–Unguwan Gimbiya–Juji Road; Kakuri–Nasarawa; and Kabala West–Hayin Nariya Road.
 
 
             </p>
             <p>
-               Commenting, the newly inaugurated president, Rotarian Luqman Babatunde who recounted how he became a Rotarian years back, noted that the love, passion and commitment seen in the members has been an encouragement to him.
-                
-               "the Club intends to distribute maternal birth kits to a primary health care centre in Mando, to also commence tree planting as a way of preserving our environment, and we also intend to distribute desk and textbooks at a public school in Kaduna".
-                Rotarian Babatunde pledged to serve humanity and to be accountable to the club as he serve his tenure for the period of one year inline with the rotary international club standard.
-                Also speaking, CEO Stainless Steel and Global Services Limited, Engr. Jinad Abdulakeem who chaired the event, maintained that Rotary Club of Kaduna Metropolitan has done remarkablly well in terms of the projects executed right from the past Excos and called on the new president to sustain the tempo.
-                In his presentation, Regional Manager of Tecon Phones, Mr. Kassim Ademola who spoke on businesses and challenges in Nigeria, maintained that everyone should be fully involved in businesses to be able to scale through the economic challenges in the country.
-                He maintained that people should be able to take risk and be committed in their businesses and seek support where necessary particularly in the areas of financial empowerment and support.
+               
+               Turning to broader social concerns, the NUJ called on Governor Uba Sani to revisit the Almajiri School and Tsangaya education policies of previous administrations as part of long-term measures to tackle the scourge of out-of-school children and street begging.
 
-                He urged people to shun fear, sign MOU and get loans for their business  and be prudent in their spendings for them to make head way in their business.
+               It identified poverty, lack of access to education and social exclusion as key drivers of the problem, and urged the government to expand school enrolment programmes and alternative livelihood schemes for vulnerable families.
 
-                On her part, President of Rotary Club of Kaduna Queens, Hajiya Rabi Musa Saulawa and Assistant Zonal Coordinator zone three, Aisha Ismail commended the outgoing Excos saying they were able to execute projects in line with rotary areas of focus despite challenges.
-                They prayed that God should help the club to get members that would support the club as it carries out it charitable works.
-                The queens mother maintained that Rotary stands for service to humanity and advice the income to look for projects that will help the poor people saying every body needs help in the society.
-                Also speaking, Rotarian Tina Ishaku the Assistant governor supervising the club expressed confidence in the newly installed president, saying going by his characterics and his past anticedents he would take the club to greater heights.
-                Highlights of the event featured installation of the rotary medal to the new president, presentations of rotary awards and medals to the guest speaker as well as to the Chairman of the event, cutting of cakes of birthday celebrants for the month, among other Mukeke activities.
-            
+               The Council, however, commended the improved working relationship between the Kaduna State Government and the media, describing it as healthy for democracy and good governance. It urged both parties to deepen engagements to sustain the gains.
+
+               Reviewing recent political milestones, the NUJ congratulated Governor Uba Sani on his conferment with the national honour of Commander of the Order of the Niger (CON), alongside former Kaduna Military Governor, Colonel Dangiwa Umar (rtd), celebrated as the “Soldier of Democracy,” and Senator Shehu Sani.
+               The Council said the recognitions underscored the roles these leaders had played in protecting democracy and advancing development.
+
+               The journalists also applauded the State Government for successfully hosting President Bola Ahmed Tinubu in June, during which he commissioned landmark projects marking Governor Sani’s two years in office. 
+
+               The Council expressed delight over the improved working relationship between Kaduna State Government and the Media in the state, urging the momentum to be sustained for the development of democracy and good governance.
+
+               Council congratulated Governor Uba Sani on the recent conferment of national honour of Commander of the Order the Niger (CON) on him, a former Military Governor of Kaduna State, Colonel Dangiwa Umar (rtd), also known as ‘Soldier of Democracy’, as well as Senator Shehu Sani.
+
+               Council also congratulated the State Government on the successful hosting of President Bola Tinubu on a state visit to Kaduna in June, where he commissioned  developmental projects to mark Governor Sani’s two years in office.
+
+               Chief among them: the 300-bed Specialist Hospital at Millennium City; three Skills Acquisition Technology Centres at Rigachikun (Igabi), Samaru Kataf (Zango Kataf) and Soba Local Government Areas of the state, CNG Vehicles and some roads projects.
+
+               Further more, while Council commended the state government for successful commissioning of completed multiple road projects across the State, which includes the new 300-bed Specialist Hospital at Millennium City, three Skills Acquisition and Technology Centres spread across Igabi, Zangon Kataf and Soba local governments, deployment of CNG vehicles and several newly completed road projects.
+
+               The Council called for the speedy completion of some on-going road projects such as the road connecting Kabala Costain – Nuhu Aliyu Road, Barnawa; Television Garrage – Sabon Tasha; Sabon Tasha – Ung Gimbiya – to Juji Road; Kakuri – Nasarawa Road and Kabala West – Hayin Nariya Road, among othe
+
+               Internally, the congress constituted an Ethics and Disciplinary Committee to enforce professional standards, a Press Centre Management Committee to oversee the Secretariat and Council property, a Credentials Committee to conduct a bye-election for the vacant position of Treasurer, and an Expanded Welfare Committee to strengthen support systems for members.
+
+               The Council further encouraged members to pay their professional fees and check-off dues promptly to aid the smooth running of Union activities at chapel, state and national levels.
             
             </p>
         `   
