@@ -589,14 +589,14 @@ const articles = [
     {
         slug: "World-Youth-Skills-Day-KDSG-to-enhance-Artifical-Intelligence",
         title: "World Youth Skills Day: KDSG set to enhance Youth Skills in  Artificial Intelligence, Digital Skills.",
-        thumbnail: "img/skills day pics (1).jpg",
+        thumbnail: "img/skills day pics 1 (1).jpg",
         meta: "By Admin | July 14, 2025",
         excerpt: "World Youth Skills Day: KDSG set to enhance Youth Skills in  Artificial Intelligence, Digital Skills.",
                 
         images: [
-            { src: "img/skills day pics (1).jpg", alt: "comrade" },
-              { src: "img/skills day pics (2).jpg", alt: "comrade" },
-              { src: "img/skills day pics (3).jpg", alt: "comrade" },
+            { src: "img/skills day pics 1 (1).jpg", alt: "comrade" },
+              { src: "img/skills day pics 1 (2).jpg", alt: "comrade" },
+              { src: "img/skills day pics 1 (3).jpg", alt: "comrade" },
         ],
         content: `
             <p> 
