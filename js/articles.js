@@ -646,4 +646,107 @@ const articles = [
                 
 
     }, 
+      {
+        slug: "Rotary-Club-of-Kaduna-Metropolitian,-NAWOJ-Exercise-in Hamdala",
+        title: "Health:Rotary Club of Kaduna Metropolitian, NAWOJ Kaduna commences monthly fitness exercise.",
+        thumbnail: "img/exercise nawoj rotary 1.jpg",
+        meta: "By Admin | July 14, 2025",
+        excerpt: "Health:Rotary Club of Kaduna Metropolitian, NAWOJ Kaduna commences monthly fitness exercise. ",
+                
+        images: [
+            { src: "img/exercise nawoj rotary 1.jpg", alt: "comrade" },
+              { src: "img/exercise nawoj rotay.jpg", alt: "comrade" },
+              { src: "img/exercise 1.jpg", alt: "comrade" },
+        ],
+        content: `
+            <p> 
+             A fitness instructor with the Nigeria Air Force Base, Mr. Musa Samaila  has urged people to indulge in exercise for the health benefits and to keep themselves fit.
+
+            <p>
+             The instructor made this known at the monthly fitness exercise organized by Rotary Club of Kaduna Metropolitian in collaboration with the Nigeria Association of Women Journalists, NAWOJ Kaduna state held at Hamdala hotel premises in Kaduna.
+
+               He explained that most of the health issues people normally complained of is associated with exercise, noting that exercise should be a continuous practice for every one, particularly with the high level of in take of cholesterol in the society.
+
+            </p>
+            <p>
+                
+               Also speaking, President of Rotary Club of Kaduna Main, Rotarian Ahmad Tijjani said the exercise is a good and refreshing one, a practice everyone in the society should key into it.
+
+               On her part, the state Chairperson Nigeria Association of Women Journalists, NAWOJ Comrade Sahura Jibrin Maidoki noted that the benefits of exercise to the building and maintenance of the body cannot be over emphasised, as it helps one to keep fit.
+
+
+
+            </p>
+            <p>
+               
+               She called on all NAWOJIANS to be fully involved in the monthly exercise, saying the next edition will be done at the Nigeria Union of Journalists Kaduna State Chapter Secretiart.
+
+               Contributing, the former NAWOJ State Chairperson, Comrade Fatima Aliyu who explained that the body pains she actually came with to the exercise were all gone, noting that women in the society should key into it to shade weighs gotten from their consumption and child birth in order to be healthy.
+
+
+              On her part, a NAWOJIAN who came all the way from Zaria, Hasiya Ali stated that she was excited when she saw the notice of the exercise, saying she made up her mind not to miss it knowing fully well the importance attached to.
+               The next exercise is schedlued to take place on the 30th of August at the Kaduna state secretairt of the NuJ.
+               
+            </p>
+            <p>
+                 Similarly, in the same week, the Club visited the Kaduna State Media Corporation, KSMC, where they seek greater collaboration between the corporation and Rotary Club in Kaduna for the promotion of charity and humanitarian services. 
+
+                 The Managing Director, Mr.Ahmed Maiyaki welcomed them and assured Rotary club of the office support .
+
+
+            
+
+            </p>
+        `   
+                
+
+    },  slug: "NAMCON-National-President-Bags-Award-from-Rotary-Club",
+        title: "NAMCON National President Bags Award from Rotary Club for Service to Humanity.",
+        thumbnail: "img/rotary award.jpg",
+        meta: "By Admin | August 18, 2025",
+        excerpt: "NAMCON National President Baga Award from Rotary Club for Service to Humanity. ",
+                
+        images: [
+            { src: "img/rotary award.jpg", alt: "comrade" },
+              { src: "img/rotary award 1.jpg", alt: "comrade" },
+              { src: "img/rotary award 2.jpg", alt: "comrade" },
+        ],
+        content: `
+            <p> 
+             Rotary Club of Kaduna Metropolitan as well as the Rotary Action Group for Peace Kaduna state chapter has recognized the National President, National Agricultural Mechanized Farmers’ Cooperative of Nigeria, NAMCON, Alhaji Aliyu Waziri for his contributions to humanity. 
+
+            <p>
+             The Club made the recognition while presenting an award and medal of the club to him in his office in Kaduna.
+
+               Speaking during the presentation, President Rotary Club of Kaduna Metropolitan who doubles as the president Rotary Action Group for Peace, Rotarian Luqman Babatunde urged wealthy Individuals and groups to continue to support the government at all level with charitable works that will bring to an end the current hardship in the society.
+            </p>
+            <p>
+                
+              The President said that the contribution of Alhaji Waziri in assisting the plight of the less privileged and the vulnerable ones in the society is not left unnoticed.
+
+               He said that the Club under his watch would continue to identify and recognize individuals and personalities worthy of such gestures. 
+
+            </p>
+            <p>
+               
+               Rotarian Babatunde pointed out that Rotary Club of Kaduna Metropolitan has mapped out programs that would have direct bearing on the people of Kaduna state in line with Rotary Club international standard.
+              He said some of the projects to be executed include the distribution of desks, uniforms and writing materials to the less privileged children in some schools in Kaduna town among others and urged the public to support them.
+
+              Commenting, the National President of NAMCON, Alhaji Aliyu Waziri who is the Turakin Tudun Wada Kaduna applauded the efforts of Rotary club in its charity and humanitarian contributions to the society.
+               He said, the recognition given to him by Rotary would encouraged him to do more in the areas of Agriculture, food and employments of the youths.
+               
+            </p>
+            <p>
+                 Alhaji Waziri added that National Agricultural Mechanized Farmers’ Cooperative of Nigeria is open to the supporting the plight of the people in the area of farming and agriculture and called on farmers to make good use of the opportunities offered by the cooperative.
+                 
+
+
+            
+
+
+
+
+
+
+
 ];
