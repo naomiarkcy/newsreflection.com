@@ -646,8 +646,8 @@ const articles = [
                 
 
     }, 
-      {
-        slug: "Rotary-Club-of-Kaduna-Metropolitian,-NAWOJ-Exercise-in Hamdala",
+    {
+        slug: "Rotary-Club-of-Kaduna-Metropolitian-NAWOJ-Exercise-in Hamdala",
         title: "Health:Rotary Club of Kaduna Metropolitian, NAWOJ Kaduna commences monthly fitness exercise.",
         thumbnail: "img/exercise nawoj rotary 1.jpg",
         meta: "By Admin | July 14, 2025",
@@ -700,7 +700,9 @@ const articles = [
         `   
                 
 
-    },  slug: "NAMCON-National-President-Bags-Award-from-Rotary-Club",
+    },
+    {
+         slug: "NAMCON-National-President-Bags-Award-from-Rotary-Club",
         title: "NAMCON National President Bags Award from Rotary Club for Service to Humanity.",
         thumbnail: "img/rotary award.jpg",
         meta: "By Admin | August 18, 2025",
@@ -738,15 +740,13 @@ const articles = [
             </p>
             <p>
                  Alhaji Waziri added that National Agricultural Mechanized Farmers’ Cooperative of Nigeria is open to the supporting the plight of the people in the area of farming and agriculture and called on farmers to make good use of the opportunities offered by the cooperative.
-                 
+            </p>
+        `   
+                
 
-
-            
-
-
-
-
+    }
+]
 
 
 
-];
+        
