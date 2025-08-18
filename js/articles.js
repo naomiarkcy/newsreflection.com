@@ -525,68 +525,6 @@ const articles = [
 
     },
     {
-        slug: "NUJ-Kaduna-state-Council-Appoints-Committees",
-        title: "NUJ Kaduna State Council appoints Ethics, Disciplinary, others Committee.",
-        thumbnail: "img/nuj pics.jpg",
-        meta: "By Admin | July 3, 2025",
-        excerpt: "The Kaduna State Council of the Nigeria Union of Journalists (NUJ) has called on the State Government to sustain the momentum of its recently inaugurated Taskforce against urban crime, warning that growing criminal activities still pose a major threat to residents, journalists and the state’s fragile economy.",
-        images: [
-            { src: "img/nuj pics.jpg", alt: "comrade" },
-            
-        ],
-        content: `
-            <p> The Kaduna State Council of the Nigeria Union of Journalists (NUJ) has called on the State Government to sustain the momentum of its recently inaugurated Taskforce against urban crime, warning that growing criminal activities still pose a major threat to residents, journalists and the state’s fragile economy.
-            
-            <p>
-               Rising from its monthly congress held at the NUJ Secretariat on Monday, the union said the Taskforce must be strengthened and properly equipped to flush out criminal elements and secure flashpoints across Kaduna metropolis and other vulnerable parts of the state.
-
-
-               In a communiqué signed by Usman Sani (Chairman), Lola Seriki-Idahosa (Member) and Ango Bally (Secretary), the NUJ expressed concern that many areas remained unsafe, forcing people to adjust daily routines and business hours out of fear of attacks.
-
-            </p>
-            <p>
-                
-               The meeting, presided over by the Council Chairman, Alhaji AbdulGafar Alabelewe, also urged the government to expedite completion of key road projects scattered across the state. It noted that bad roads not only hurt commerce but sometimes heighten security risks by isolating communities and slowing response by security agencies.
-
-               Among the roads cited by the journalists for urgent attention were the Kabala Costain–Nuhu Aliyu Road in Barnawa; Television Garage–Sabon Tasha; Sabon Tasha–Unguwan Gimbiya–Juji Road; Kakuri–Nasarawa; and Kabala West–Hayin Nariya Road.
-
-
-            </p>
-            <p>
-               
-               Turning to broader social concerns, the NUJ called on Governor Uba Sani to revisit the Almajiri School and Tsangaya education policies of previous administrations as part of long-term measures to tackle the scourge of out-of-school children and street begging.
-
-               It identified poverty, lack of access to education and social exclusion as key drivers of the problem, and urged the government to expand school enrolment programmes and alternative livelihood schemes for vulnerable families.
-
-               The Council, however, commended the improved working relationship between the Kaduna State Government and the media, describing it as healthy for democracy and good governance. It urged both parties to deepen engagements to sustain the gains.
-
-               Reviewing recent political milestones, the NUJ congratulated Governor Uba Sani on his conferment with the national honour of Commander of the Order of the Niger (CON), alongside former Kaduna Military Governor, Colonel Dangiwa Umar (rtd), celebrated as the “Soldier of Democracy,” and Senator Shehu Sani.
-               The Council said the recognitions underscored the roles these leaders had played in protecting democracy and advancing development.
-
-               The journalists also applauded the State Government for successfully hosting President Bola Ahmed Tinubu in June, during which he commissioned landmark projects marking Governor Sani’s two years in office. 
-
-               The Council expressed delight over the improved working relationship between Kaduna State Government and the Media in the state, urging the momentum to be sustained for the development of democracy and good governance.
-
-               Council congratulated Governor Uba Sani on the recent conferment of national honour of Commander of the Order the Niger (CON) on him, a former Military Governor of Kaduna State, Colonel Dangiwa Umar (rtd), also known as ‘Soldier of Democracy’, as well as Senator Shehu Sani.
-
-               Council also congratulated the State Government on the successful hosting of President Bola Tinubu on a state visit to Kaduna in June, where he commissioned  developmental projects to mark Governor Sani’s two years in office.
-
-               Chief among them: the 300-bed Specialist Hospital at Millennium City; three Skills Acquisition Technology Centres at Rigachikun (Igabi), Samaru Kataf (Zango Kataf) and Soba Local Government Areas of the state, CNG Vehicles and some roads projects.
-
-               Further more, while Council commended the state government for successful commissioning of completed multiple road projects across the State, which includes the new 300-bed Specialist Hospital at Millennium City, three Skills Acquisition and Technology Centres spread across Igabi, Zangon Kataf and Soba local governments, deployment of CNG vehicles and several newly completed road projects.
-
-               The Council called for the speedy completion of some on-going road projects such as the road connecting Kabala Costain – Nuhu Aliyu Road, Barnawa; Television Garrage – Sabon Tasha; Sabon Tasha – Ung Gimbiya – to Juji Road; Kakuri – Nasarawa Road and Kabala West – Hayin Nariya Road, among othe
-
-               Internally, the congress constituted an Ethics and Disciplinary Committee to enforce professional standards, a Press Centre Management Committee to oversee the Secretariat and Council property, a Credentials Committee to conduct a bye-election for the vacant position of Treasurer, and an Expanded Welfare Committee to strengthen support systems for members.
-
-               The Council further encouraged members to pay their professional fees and check-off dues promptly to aid the smooth running of Union activities at chapel, state and national levels.
-            
-            </p>
-        `   
-                
-
-    },
-    {
         slug: "World-Youth-Skills-Day-KDSG-to-enhance-Artifical-Intelligence",
         title: "World Youth Skills Day: KDSG set to enhance Youth Skills in  Artificial Intelligence, Digital Skills.",
         thumbnail: "img/skills day pics 1 (1).jpg",
@@ -702,11 +640,11 @@ const articles = [
 
     },
     {
-         slug: "NAMCON-National-President-Bags-Award-from-Rotary-Club",
-        title: "NAMCON National President Bags Award from Rotary Club for Service to Humanity.",
+         slug: "NAMCON-National-President-Bags-Award-from-Rotary",
+        title: "NAMCON National President Bags Award from Rotary for Service to Humanity.",
         thumbnail: "img/rotary award.jpg",
         meta: "By Admin | August 18, 2025",
-        excerpt: "NAMCON National President Baga Award from Rotary Club for Service to Humanity. ",
+        excerpt: "NAMCON National President Baga Award from Rotary for Service to Humanity. ",
                 
         images: [
             { src: "img/rotary award.jpg", alt: "comrade" },
@@ -733,7 +671,8 @@ const articles = [
                
                Rotarian Babatunde pointed out that Rotary Club of Kaduna Metropolitan has mapped out programs that would have direct bearing on the people of Kaduna state in line with Rotary Club international standard.
               He said some of the projects to be executed include the distribution of desks, uniforms and writing materials to the less privileged children in some schools in Kaduna town among others and urged the public to support them.
-
+            </p>
+            <p>
               Commenting, the National President of NAMCON, Alhaji Aliyu Waziri who is the Turakin Tudun Wada Kaduna applauded the efforts of Rotary club in its charity and humanitarian contributions to the society.
                He said, the recognition given to him by Rotary would encouraged him to do more in the areas of Agriculture, food and employments of the youths.
                
