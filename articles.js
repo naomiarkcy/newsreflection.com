@@ -462,15 +462,14 @@ const articles = [
         `   
 
     },
-     {
+    {
         slug: "NUJ-Kaduna-state-Council-Appoints-Committees",
-        title: "NUJ Kaduna State Council appoints Ethics, Disciplinary, others Committee."
-.",
-        thumbnail: "img/NuJ pics.jpg",
+        title: "NUJ Kaduna State Council appoints Ethics, Disciplinary, others Committee.",
+        thumbnail: "img/nuj pics.jpg",
         meta: "By Admin | July 3, 2025",
         excerpt: "The Kaduna State Council of the Nigeria Union of Journalists (NUJ) has called on the State Government to sustain the momentum of its recently inaugurated Taskforce against urban crime, warning that growing criminal activities still pose a major threat to residents, journalists and the state’s fragile economy.",
         images: [
-            { src: "img/NuJ pics.jpg", alt: "comrade" },
+            { src: "img/nuj pics.jpg", alt: "comrade" },
             
         ],
         content: `
@@ -524,5 +523,169 @@ const articles = [
         `   
                 
 
+    },
+    {
+        slug: "World-Youth-Skills-Day-KDSG-to-enhance-Artifical-Intelligence",
+        title: "World Youth Skills Day: KDSG set to enhance Youth Skills in  Artificial Intelligence, Digital Skills.",
+        thumbnail: "img/skills day pics 1 (1).jpg",
+        meta: "By Admin | July 14, 2025",
+        excerpt: "World Youth Skills Day: KDSG set to enhance Youth Skills in  Artificial Intelligence, Digital Skills.",
+                
+        images: [
+            { src: "img/skills day pics 1 (1).jpg", alt: "comrade" },
+              { src: "img/skills day pics 1 (2).jpg", alt: "comrade" },
+              { src: "img/skills day pics 1 (3).jpg", alt: "comrade" },
+        ],
+        content: `
+            <p> 
+             Kaduna State Government says it will invest in Artificial Intelligence and Digital Skills for the youth to enhance their potentials and gain financial freedom. 
+            
+            <p>
+               Kaduna State Deputy Governor, Dr. Hadiza Balarabe made this known at this year's World Youth Skills Day organized by the Commissioner, Ministry of Youth Development, Barrister Gloria Ibrahim at KAD ICT Hub in Kaduna.
+
+
+               Represented by her Senior Special Assistant Human Capital Development, Mallam Sagir Balarabe Musa, the Deputy Governor  commended the Commissioner of Youth Development for the initiative in marking world youth skills day in the state, saying youth in Nigeria and Kaduna State have the largest population, hence the need to indulge them with A.I, and ICT for them to discover their potentials in turn gain financial freedom.
+
+            </p>
+            <p>
+                
+               She urged the youth to utilize there talent and used the privilege given to them by the state government and it's partners to develop themselves.
+
+               "The state is willing to established center to support the youths in realizing their potential, it’s time for them to used the opportunity especially on the A,I and other technology realize worldwide, she added.
+
+
+
+            </p>
+            <p>
+               
+               Also Speaking, The Commissioner Ministry of Youth Development, Barrister Gloria Ibrahim explained that this year's world youth skill day which is originally marked on the 15th of July was apt going by the theme: youth empowerment through artificial intelligence and digital skills. 
+
+               She noted that the large turn out of Youth in the program, shows that there are a lot of youth yelling for more knowledge and skills to be self reliant and financially independent in the state.
+
+
+               While commending the Kaduna state Governor, Mallam Uba Sani for his  support and contribution towards youth development in the state,  Barrister Gloria Ibrahim called on the youth to maximize the opportunities been thrown to them by the state government and it partners to develop themselves.
+
+               Also speaking, Commissioner of Education Kaduna State, Professor Abubakar Sambo who was represented by Malam Aliyu Mohammed said that the ministry would continue to collaborate with organisations and individuals that would empower the youth and transform them with skills to enable them compete globally.
+               He urged them to take advantage of the world youth day and programs being rolled out by the ministry to showcase their skills and transform the state.
+               
+            </p>
+            <p>
+                 On his part, the Vice Chancellor Kaduna State University,Professor Abdullahi Musa explained that KASU recently launched an A.I labory which is the first in the country,  saying the university would continue to be in the forth font of youth development in the state.
+
+               Also speaking, Director General KAD ICT HUB, Malam Yusuf Bashir noted that ICT particularly A.I has so many features that assist in getting things done faster but advice that people should not be lazy.
+
+
+               While itemizing some of the success stories of the Hub, including the EDUNOID A.I app,  Malam Bashir noted that youth in Kaduna State were willing to learn and explore.
+
+               The event which has over two hundred youth present, featured a panel discussion, good will messages, DEMO on A.I app, questions and answers sessions, STEM award presentation among others.
+
+            </p>
+        `   
+                
+
+    }, 
+    {
+        slug: "Rotary-Club-of-Kaduna-Metropolitian-NAWOJ-Exercise-in Hamdala",
+        title: "Health:Rotary Club of Kaduna Metropolitian, NAWOJ Kaduna commences monthly fitness exercise.",
+        thumbnail: "img/exercise nawoj rotary 1.jpg",
+        meta: "By Admin | July 14, 2025",
+        excerpt: "Health:Rotary Club of Kaduna Metropolitian, NAWOJ Kaduna commences monthly fitness exercise. ",
+                
+        images: [
+            { src: "img/exercise nawoj rotary 1.jpg", alt: "comrade" },
+              { src: "img/exercise nawoj rotay.jpg", alt: "comrade" },
+              { src: "img/exercise 1.jpg", alt: "comrade" },
+        ],
+        content: `
+            <p> 
+             A fitness instructor with the Nigeria Air Force Base, Mr. Musa Samaila  has urged people to indulge in exercise for the health benefits and to keep themselves fit.
+
+            <p>
+             The instructor made this known at the monthly fitness exercise organized by Rotary Club of Kaduna Metropolitian in collaboration with the Nigeria Association of Women Journalists, NAWOJ Kaduna state held at Hamdala hotel premises in Kaduna.
+
+               He explained that most of the health issues people normally complained of is associated with exercise, noting that exercise should be a continuous practice for every one, particularly with the high level of in take of cholesterol in the society.
+
+            </p>
+            <p>
+                
+               Also speaking, President of Rotary Club of Kaduna Main, Rotarian Ahmad Tijjani said the exercise is a good and refreshing one, a practice everyone in the society should key into it.
+
+               On her part, the state Chairperson Nigeria Association of Women Journalists, NAWOJ Comrade Sahura Jibrin Maidoki noted that the benefits of exercise to the building and maintenance of the body cannot be over emphasised, as it helps one to keep fit.
+
+
+
+            </p>
+            <p>
+               
+               She called on all NAWOJIANS to be fully involved in the monthly exercise, saying the next edition will be done at the Nigeria Union of Journalists Kaduna State Chapter Secretiart.
+
+               Contributing, the former NAWOJ State Chairperson, Comrade Fatima Aliyu who explained that the body pains she actually came with to the exercise were all gone, noting that women in the society should key into it to shade weighs gotten from their consumption and child birth in order to be healthy.
+
+
+              On her part, a NAWOJIAN who came all the way from Zaria, Hasiya Ali stated that she was excited when she saw the notice of the exercise, saying she made up her mind not to miss it knowing fully well the importance attached to.
+               The next exercise is schedlued to take place on the 30th of August at the Kaduna state secretairt of the NuJ.
+               
+            </p>
+            <p>
+                 Similarly, in the same week, the Club visited the Kaduna State Media Corporation, KSMC, where they seek greater collaboration between the corporation and Rotary Club in Kaduna for the promotion of charity and humanitarian services. 
+
+                 The Managing Director, Mr.Ahmed Maiyaki welcomed them and assured Rotary club of the office support .
+
+
+            
+
+            </p>
+        `   
+                
+
+    },
+    {
+         slug: "NAMCON-National-President-Bags-Award-from-Rotary",
+        title: "NAMCON National President Bags Award from Rotary for Service to Humanity.",
+        thumbnail: "img/rotary award.jpg",
+        meta: "By Admin | August 18, 2025",
+        excerpt: "NAMCON National President Baga Award from Rotary for Service to Humanity. ",
+                
+        images: [
+            { src: "img/rotary award.jpg", alt: "comrade" },
+              { src: "img/rotary award 1.jpg", alt: "comrade" },
+              { src: "img/rotary award 2.jpg", alt: "comrade" },
+        ],
+        content: `
+            <p> 
+             Rotary Club of Kaduna Metropolitan as well as the Rotary Action Group for Peace Kaduna state chapter has recognized the National President, National Agricultural Mechanized Farmers’ Cooperative of Nigeria, NAMCON, Alhaji Aliyu Waziri for his contributions to humanity. 
+
+            <p>
+             The Club made the recognition while presenting an award and medal of the club to him in his office in Kaduna.
+
+               Speaking during the presentation, President Rotary Club of Kaduna Metropolitan who doubles as the president Rotary Action Group for Peace, Rotarian Luqman Babatunde urged wealthy Individuals and groups to continue to support the government at all level with charitable works that will bring to an end the current hardship in the society.
+            </p>
+            <p>
+                
+              The President said that the contribution of Alhaji Waziri in assisting the plight of the less privileged and the vulnerable ones in the society is not left unnoticed.
+
+               He said that the Club under his watch would continue to identify and recognize individuals and personalities worthy of such gestures. 
+
+            </p>
+            <p>
+               
+               Rotarian Babatunde pointed out that Rotary Club of Kaduna Metropolitan has mapped out programs that would have direct bearing on the people of Kaduna state in line with Rotary Club international standard.
+              He said some of the projects to be executed include the distribution of desks, uniforms and writing materials to the less privileged children in some schools in Kaduna town among others and urged the public to support them.
+            </p>
+            <p>
+              Commenting, the National President of NAMCON, Alhaji Aliyu Waziri who is the Turakin Tudun Wada Kaduna applauded the efforts of Rotary club in its charity and humanitarian contributions to the society.
+               He said, the recognition given to him by Rotary would encouraged him to do more in the areas of Agriculture, food and employments of the youths.
+               
+            </p>
+            <p>
+                 Alhaji Waziri added that National Agricultural Mechanized Farmers’ Cooperative of Nigeria is open to the supporting the plight of the people in the area of farming and agriculture and called on farmers to make good use of the opportunities offered by the cooperative.
+            </p>
+        `   
+                
+
     }
-];
+]
+
+
+
+        
